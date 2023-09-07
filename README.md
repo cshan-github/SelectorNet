@@ -29,4 +29,19 @@ Due to concerns regarding patient privacy, we cannot disclose patient informatio
 
 ## Project Description
 
-**1.Zero-Shot Segmentation**
+**1.Tongue Segmentation**
+
+This paper uses TongueSAM as the tongue segmentation tool, and you can obtain the model and pre-trained model from [here](https://github.com/cshan-github/TongueSAM).
+
+**2.Feature Exaction**
+
+The pre-trained ResNet34 used in the paper is sourced from [here](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/Test5_resnet), and their project provides both the model and pre-trained models.
+
+The tongue coat and tongue body segmentation method used in the article is ```./split_body_coat.py```, and an example of the segmentation is shown in the following figure.
+
+<p align="center">
+    <img src="https://github.com/cshan-github/SelectorNet/blob/main/3.jpg" width="500" height="200">
+
+For the color feature extraction and morphological feature extraction of tongue images, basic image processing algorithms are employed, treating the images as arrays for calculation. Further elaboration on these methods is not provided here.
+
+For the texture features, Contrast (CON), Angular Second Moment (ASM), Entropy (ENT), and Mean (MEAN), this study employs a feature extraction approach based on the skimage library. We utilized a pre-trained YOLOX model to extract the remaining texture features.
