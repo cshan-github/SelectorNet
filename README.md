@@ -48,8 +48,27 @@ For the texture features, Contrast (CON), Angular Second Moment (ASM), Entropy (
 
 **3.SelectorNet**
 
+The model architecture of SelectorNet can be found in ```./SelectorNet.py```, and the methods compared in Experiment A of the paper are sourced from [here](https://github.com/kathrinse/TabSurvey). The hyperparameter settings are provided in ```./best_params.yml```.
 
 
+## Acknowledge
 
+This work was supported by the Key Project of National Key R&D Project (No.2017YFC1703303); Industry-University- Research Cooperation Project of Fujian Science and Tech- nology Planning (No.2022H6012); Industry-University-Rese arch Cooperation Project of Ningde City and Xiamen Uni- versity (No.2020C001); Natural Science Foundation of Fujian Province of China (No.2020J01435, No.2021J011169).
 
-## Updating ...
+## License
+
+This project is licensed under the [MIT LICENSE](https://github.com/cshan-github/SelectorNet/blob/main/LICENSE.md).
+
+## Reference
+
+If you want to reference this paper, please refer to the following format:
+
+```
+@misc{cao2023noninvasive,
+      title={A Non-Invasive Interpretable NAFLD Diagnostic Method Combining TCM Tongue Features}, 
+      author={Shan Cao and Qunsheng Ruan and Qingfeng Wu},
+      year={2023},
+      eprint={2309.02959},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
