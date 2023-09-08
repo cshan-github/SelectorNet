@@ -1,0 +1,115 @@
+NAFLD: {
+        LinearModel: {},
+        KNN: {
+            n_neighbors: 9
+        },                
+        SVM:{
+            C: 0.05143601993713483
+        },
+        DecisionTree: {
+            max_depth: 10
+        },        
+        RandomForest: {
+            max_depth: 5,
+            n_estimators: 20
+        },
+        XGBoost: {
+            max_depth: 2,
+            alpha: 2.522452528858881e-07,
+            lambda: 5.360302316708648e-08,
+            eta: 0.0388502619046261,
+        },
+        CatBoost: {
+            learning_rate: 0.012593295877032649,
+            max_depth: 2,
+            l2_leaf_reg: 26.83151696265147,
+        },
+        LightGBM: {
+            num_leaves: 3,
+            lambda_l1: 0.3500533657557943,
+            lambda_l2: 0.002679661468333281,
+            learning_rate: 0.08852875787516956,
+        },
+        ModelTree: {
+            criterion: gradient-renorm-z,
+            max_depth: 1
+        },
+        MLP: {            
+            hidden_dim: 50,
+            n_layers: 4,
+            learning_rate: 0.0009237767914481
+        },
+        TabNet: {
+                n_d: 32,
+                n_steps: 9,
+                gamma: 1.460949340635508,
+                cat_emb_dim: 1,
+                n_independent: 5,
+                n_shared: 5,
+                momentum: 0.05997956100786162,
+                mask_type: sparsemax
+        },
+        VIME: {
+            p_m: 0.113,
+            K: 15,
+            alpha: 9.83,
+            beta: 0.313
+        },
+        TabTransformer: {
+            dim: 32,
+            depth: 3,
+            heads: 2,
+            weight_decay: -2,
+            learning_rate: -3,
+            dropout: 0.3
+        },
+        NODE: {
+            num_layers: 4,
+            total_tree_count: 1024,
+            tree_depth: 8,
+            tree_output_dim: 3
+        },
+        DeepGBM: {
+            n_trees: 200,
+            maxleaf: 64,
+            loss_de: 10,
+            loss_dr: 0.7
+        },
+        RLN: {
+            
+            layers: 5,
+            theta: -12,
+            log_lr: 5,
+            norm: 2
+        },
+        DNFNet: {
+            n_forumlas: 1024,
+            elastic_net_beta: 1.3
+        },
+        STG: {
+            learning_rate: 0.00844945480618268,
+            lam: 0.249326650774118,
+            hidden_dims: [60, 20]
+        },
+        NAM: {
+            lr: 0.0016786112456688052,
+            output_regularization: 0.0033376632126127103,
+            dropout: 0.3608894947630515,
+            feature_dropout: 0.17600439430254536
+        },
+        DeepFM: {
+            dnn_dropout: 0.3629328484577316
+        },
+        SAINT: {
+            dim: 64,
+            depth: 2,
+            heads: 8,
+            dropout: 0.3
+        },
+        DANet: {
+            layer: 8,
+            base_outdim: 96,
+            k: 4,
+            drop_rate: 0
+        },
+    }
