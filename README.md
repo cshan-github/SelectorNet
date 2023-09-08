@@ -44,6 +44,12 @@ The tongue coat and tongue body segmentation method used in the article is ```./
 
 For the color feature extraction and morphological feature extraction of tongue images, basic image processing algorithms are employed, treating the images as arrays for calculation. Further elaboration on these methods is not provided here.
 
-For the texture features, Contrast (CON), Angular Second Moment (ASM), Entropy (ENT), and Mean (MEAN), this study employs a feature extraction approach based on the skimage library. We utilized a pre-trained YOLOX model to extract the remaining texture features.
+For the texture features, Contrast (CON), Angular Second Moment (ASM), Entropy (ENT), and Mean (MEAN), this study employs approaches based on the skimage library. We utilized a pre-trained YOLOX model to extract the remaining texture features. For privacy reasons, we are unable to disclose the training dataset used, but we have made the pre-trained model publicly available here. The YOLOX we use from [here](https://github.com/bubbliiiing/yolox-pytorch). Please load the ```./yolox.pth``` as instructed and use our class file ```./tongue_classes.txt```.
+
+**3.SelectorNet**
+
+
+
+
 
 ## Updating ...
