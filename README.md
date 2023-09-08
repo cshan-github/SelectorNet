@@ -1,4 +1,4 @@
-# SelectorNet
+# A Non-Invasive Interpretable NAFLD Diagnostic Method Combining TCM Tongue Diagnosis
 This is the project of the paper "A Non-Invasive Interpretable NAFLD Diagnostic Method Combining TCM Tongue Diagnosis", this paper can be get:https://arxiv.org/abs/2309.02959.
 
 ## Abstract
